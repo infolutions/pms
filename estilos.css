@@ -1,0 +1,151 @@
+body{
+	background:url()
+	color:white;
+}
+header{
+		margin-top: 2%;
+		text-align: center;
+    background-image: linear-gradient(rgb(255, 0, 255),rgba(255,0,0,0));
+    -webkit-border-radius: 20px 0px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+#cabecera{
+	position:absolute;
+	color:red;
+	width:100%;
+	height:150px;
+	text-align:center;
+	top:10px;
+	left:0px;
+}
+
+h1{
+	width:50%;
+	top:0px;
+	margin-left:300px;
+	font-size: 350%;
+	padding-top: 5%;
+}
+#inner{
+	position: absolute;
+	width:300px;
+	height:500px;
+	text-align: center;
+}
+
+#menu{
+	position:absolute;
+	width:300px;
+	height:500px;
+	top:200px;
+	left:50px;
+
+}	
+#contenido{
+	width:900px;
+	height:1000px;
+	top:150px;
+	left:400px;
+	text-align:center;
+}
+#logo{
+	margin-top: 2%;
+	position:absolute;
+	left:10px;
+	top:1%;
+	text-align:left;
+}
+#somo{
+	margin-top: 2%;
+	position:absolute;
+	left:75%;
+	top:5%;
+	text-align:center;
+	width:19%;
+	height:19%;
+}
+
+#catalogo{
+	position:absolute;
+	left:5%;
+	height:60%;
+	top:280px;
+	text-align:center;
+
+}
+
+#footer{
+	margin-top: 2%;
+	position:absolute;
+	left:5%;
+	top:100%;
+}
+
+#titulo{
+	position:absolute;
+	text-align:center;
+	margin-top: 5%;
+	font-family: verdana;
+}
+
+h1{
+	position:absolute;
+	text-align:center;
+	border:1px solid black;
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+}
+
+article{
+
+		margin-top: 5%;
+		text-align:center;
+		border:1px solid black;
+		width:85%;
+		height:85%;
+		 box-shadow: 0px 2px 5px #1c1a19;
+       background-color: #706b64;
+         border-radius: 5px;
+    padding: 10px;
+    color: black;
+    font-size: 0.9em;
+    background-color: #ccccb3;
+}
+
+nav
+{
+	margin-top: 15%;
+	text-align: center;
+	border: 2px solid black;
+    display: inline-block;
+    width: 40%;
+
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+	color:  #4d4d33;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}

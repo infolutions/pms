@@ -1,0 +1,73 @@
+header{
+text-align: center;
+margin-bottom: 100px;
+font-size:150%;
+    background-image: linear-gradient(rgb(66, 100, 247),rgba(255,0,0,0));
+    -webkit-border-radius: 20px 0px 0px 0px;
+    border-radius: 20px 0px 0px 0px;
+}
+
+
+#catalogo2{
+    margin-top: 15%;
+    text-align: center;
+    border: 2px solid black;
+    display: inline-block;
+    width: 40%;
+}
+
+#datos{
+    text-align: center;
+    border: 2px solid black;
+    display: inline-block;
+    width: 40%;
+}
+
+fieldset{
+    text-align: left;
+    border: 2px solid black;
+    display: inline-block;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+body{
+  background-color:rgb(224, 224, 209);
+}
+fieldset{
+
+padding-top: 2%;
+padding-bottom: 2%;
+}
+nav
+{
+    display: inline-block;
+    width: 740px;
+    text-align: center;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color:  #0047b3;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}

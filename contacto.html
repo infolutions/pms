@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacto</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="formulario.css">
+<link rel="icon" type="image/png" href="a.png">
+</head>
+<body>
+	<header>
+		<h1>Rellene con su informacion</h1>
+			    <nav>
+                    <ul id="catalogo2">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="mapa.html">Mapa</a></li>                 
+                </nav>
+	</header>
+	<section>
+		<form action="submit.php" method="post">
+			<fieldset id="">
+				<legend class="informacion">INFORMACIÓN PERSONAL</legend>
+				Nombre:
+				<input type="text" name="username">
+				<br/>
+				Apellidos:
+				<input type="text" name="username">
+				<br/>
+				Correo electrónico:
+				<input type="email" name="email">
+				<br/>
+				Fecha de nacimiento:
+				<input type="date" name="fecha">
+				<br/>
+				Teléfono móvil:
+				<input type="tel" name="usrtel">
+				<br/>
+			</fieldset>
+						<button onclick="myFunction()">Enviar</button>
+<script>
+function myFunction() {
+  alert("Contactaremos de vuelta lo antes posibles");
+}
+</script>
+      <input type="reset" name="Limpiar">
+		</form>
+	</section>
+</body>
+</html>
